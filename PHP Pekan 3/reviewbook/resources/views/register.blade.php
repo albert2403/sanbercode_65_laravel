@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Form Sign Up</title>
-</head>
-<body>
+@extends('layouts.master')
+
+@section('title', 'Home')
+@php $title = 'Register'; @endphp
+
+@section('content')
     <h1>Buat Akun Baru!</h1>
     <h2>Sign Up Form</h2>
 
@@ -44,5 +44,4 @@
 
         <button type="submit">Sign Up</button>
     </form>
-</body>
-</html>
+@endsection
